@@ -1,0 +1,483 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%md\nThis notebook tests the primary functionality once Galadrome is setup\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-29T15:34:49-0600",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>This notebook tests the primary functionality once Galadrome is setup</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089200_1979359888",
+      "id": "paragraph_1702332122796_433652931",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:61160"
+    },
+    {
+      "title": "Spark / scala - call spark version",
+      "text": "%spark\nsc.version",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-29T15:39:19-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mres1\u001b[0m: \u001b[1m\u001b[32mString\u001b[0m = 3.5.3\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089202_1272627065",
+      "id": "paragraph_1702330525320_1730009499",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "dateStarted": "2024-11-29T15:39:19-0600",
+      "dateFinished": "2024-11-29T15:39:20-0600",
+      "status": "FINISHED",
+      "$$hashKey": "object:61161"
+    },
+    {
+      "title": "R",
+      "text": "%r\nlibrary(RODBC)\nsetwd(\"/media/data/RData\")\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-30T20:18:52-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089202_242532198",
+      "id": "paragraph_1702330536515_679169766",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "FINISHED",
+      "$$hashKey": "object:61162",
+      "dateFinished": "2024-11-30T20:18:53-0600",
+      "dateStarted": "2024-11-30T20:18:52-0600"
+    },
+    {
+      "title": "Pyspark",
+      "text": "%pyspark\nimport gc\nimport pyodbc\nimport pandas as pd\nimport gc\n## import pandasai\n##\nfrom pyspark.sql import SQLContext",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-30T20:18:20-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089202_626365255",
+      "id": "paragraph_1702330542220_1704610030",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "FINISHED",
+      "$$hashKey": "object:61163",
+      "dateFinished": "2024-11-30T20:18:20-0600",
+      "dateStarted": "2024-11-30T20:18:20-0600"
+    },
+    {
+      "text": "%python\nimport pyodbc\nimport pandas",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-30T20:19:55-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1733019550666_1055899956",
+      "id": "paragraph_1733019550666_1055899956",
+      "dateCreated": "2024-11-30T20:19:10-0600",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:64914",
+      "dateFinished": "2024-11-30T20:19:30-0600",
+      "dateStarted": "2024-11-30T20:19:29-0600",
+      "title": "Python",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "title": "python version",
+      "text": "%sh\npython3 --version\n#python3.10  --version\n#import pandasai\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-30T20:17:26-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Python 3.9.20\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089203_325109988",
+      "id": "paragraph_1702330889301_1391109819",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "FINISHED",
+      "$$hashKey": "object:61164",
+      "dateFinished": "2024-11-30T20:17:26-0600",
+      "dateStarted": "2024-11-30T20:17:26-0600"
+    },
+    {
+      "text": "%MYSQL\n-- use galadrome \n-- show tables\nselect * from  galadrome.training_auto limit 10\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-29T15:34:49-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "RefId": "string",
+                      "IsBadBuy": "string",
+                      "PurchDate": "string",
+                      "Auction": "string",
+                      "VehYear": "string",
+                      "VehicleAge": "string",
+                      "Make": "string",
+                      "Model": "string",
+                      "Trim": "string",
+                      "SubModel": "string",
+                      "Color": "string",
+                      "Transmission": "string",
+                      "WheelTypeID": "string",
+                      "WheelType": "string",
+                      "VehOdo": "string",
+                      "Nationality": "string",
+                      "Size": "string",
+                      "TopThreeAmericanName": "string",
+                      "MMRAcquisitionAuctionAveragePrice": "string",
+                      "MMRAcquisitionAuctionCleanPrice": "string",
+                      "MMRAcquisitionRetailAveragePrice": "string",
+                      "MMRAcquisitonRetailCleanPrice": "string",
+                      "MMRCurrentAuctionAveragePrice": "string",
+                      "MMRCurrentAuctionCleanPrice": "string",
+                      "MMRCurrentRetailAveragePrice": "string",
+                      "MMRCurrentRetailCleanPrice": "string",
+                      "PRIMEUNIT": "string",
+                      "AUCGUART": "string",
+                      "BYRNO": "string",
+                      "VNZIP1": "string",
+                      "VNST": "string",
+                      "VehBCost": "string",
+                      "IsOnlineSale": "string",
+                      "WarrantyCost": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "RefId\tIsBadBuy\tPurchDate\tAuction\tVehYear\tVehicleAge\tMake\tModel\tTrim\tSubModel\tColor\tTransmission\tWheelTypeID\tWheelType\tVehOdo\tNationality\tSize\tTopThreeAmericanName\tMMRAcquisitionAuctionAveragePrice\tMMRAcquisitionAuctionCleanPrice\tMMRAcquisitionRetailAveragePrice\tMMRAcquisitonRetailCleanPrice\tMMRCurrentAuctionAveragePrice\tMMRCurrentAuctionCleanPrice\tMMRCurrentRetailAveragePrice\tMMRCurrentRetailCleanPrice\tPRIMEUNIT\tAUCGUART\tBYRNO\tVNZIP1\tVNST\tVehBCost\tIsOnlineSale\tWarrantyCost\n1\t0\t12/7/2009\tADESA\t2006\t3\tMAZDA\tMAZDA3\ti\t4D SEDAN I\tRED\tAUTO\t1\tAlloy\t89046\tOTHER ASIAN\tMEDIUM\tOTHER\t8155\t9829\t11636\t13600\t7451\t8552\t11597\t12409.00\tnull\tnull\t21973\t33619\tFL\t7100\t0\t1113\n2\t0\t12/7/2009\tADESA\t2004\t5\tDODGE\t1500 RAM PICKUP 2WD\tST\tQUAD CAB 4.7L SLT\tWHITE\tAUTO\t1\tAlloy\t93593\tAMERICAN\tLARGE TRUCK\tCHRYSLER\t6854\t8383\t10897\t12572\t7456\t9222\t11374\t12791.00\tnull\tnull\t19638\t33619\tFL\t7600\t0\t1053\n3\t0\t12/7/2009\tADESA\t2005\t4\tDODGE\tSTRATUS V6\tSXT\t4D SEDAN SXT FFV\tMAROON\tAUTO\t2\tCovers\t73807\tAMERICAN\tMEDIUM\tCHRYSLER\t3202\t4760\t6943\t8457\t4035\t5557\t7146\t8702.00\tnull\tnull\t19638\t33619\tFL\t4900\t0\t1389\n4\t0\t12/7/2009\tADESA\t2004\t5\tDODGE\tNEON\tSXT\t4D SEDAN\tSILVER\tAUTO\t1\tAlloy\t65617\tAMERICAN\tCOMPACT\tCHRYSLER\t1893\t2675\t4658\t5690\t1844\t2646\t4375\t5518.00\tnull\tnull\t19638\t33619\tFL\t4100\t0\t630\n5\t0\t12/7/2009\tADESA\t2005\t4\tFORD\tFOCUS\tZX3\t2D COUPE ZX3\tSILVER\tMANUAL\t2\tCovers\t69367\tAMERICAN\tCOMPACT\tFORD\t3913\t5054\t7723\t8707\t3247\t4384\t6739\t7911.00\tnull\tnull\t19638\t33619\tFL\t4000\t0\t1020\n6\t0\t12/7/2009\tADESA\t2004\t5\tMITSUBISHI\tGALANT 4C\tES\t4D SEDAN ES\tWHITE\tAUTO\t2\tCovers\t81054\tOTHER ASIAN\tMEDIUM\tOTHER\t3901\t4908\t6706\t8577\t4709\t5827\t8149\t9451.00\tnull\tnull\t19638\t33619\tFL\t5600\t0\t594\n7\t0\t12/7/2009\tADESA\t2004\t5\tKIA\tSPECTRA\tEX\t4D SEDAN EX\tBLACK\tAUTO\t2\tCovers\t65328\tOTHER ASIAN\tMEDIUM\tOTHER\t2966\t4038\t6240\t8496\t2980\t4115\t6230\t8603.00\tnull\tnull\t19638\t33619\tFL\t4200\t0\t533\n8\t0\t12/7/2009\tADESA\t2005\t4\tFORD\tTAURUS\tSE\t4D SEDAN SE\tWHITE\tAUTO\t2\tCovers\t65805\tAMERICAN\tMEDIUM\tFORD\t3313\t4342\t6667\t7707\t3713\t4578\t6942\t8242.00\tnull\tnull\t19638\t33619\tFL\t4500\t0\t825\n9\t0\t12/7/2009\tADESA\t2007\t2\tKIA\tSPECTRA\tEX\t4D SEDAN EX\tBLACK\tAUTO\t2\tCovers\t49921\tOTHER ASIAN\tMEDIUM\tOTHER\t6196\t7274\t9687\t10624\t6417\t7371\t9637\t10778.00\tnull\tnull\t21973\t33619\tFL\t5600\t0\t482\n10\t0\t12/7/2009\tADESA\t2007\t2\tFORD\tFIVE HUNDRED\tSEL\t4D SEDAN SEL\tRED\tAUTO\t1\tAlloy\t84872\tAMERICAN\tLARGE\tFORD\t7845\t9752\t11734\t13656\t9167\t10988\t12580\t14845.00\tnull\tnull\t21973\t33619\tFL\t7700\t0\t1633\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089203_81370835",
+      "id": "paragraph_1703474055647_716196690",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "READY",
+      "$$hashKey": "object:61165"
+    },
+    {
+      "title": "Default Zeppelin Directory",
+      "text": "%pyspark\nimport os\nprint(os.getcwd())\n\n## !!! note: why is this now pointing to a home directory?\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-29T15:34:49-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "/home/rlenzen\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089203_841402059",
+      "id": "paragraph_1702330970146_416339290",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "READY",
+      "$$hashKey": "object:61166"
+    },
+    {
+      "text": "%md \npyspark cheat sheet: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf\npyspark:  http://spark.apache.org/docs/latest/api/python/pyspark.sql.html\nSQL programming guide:  https://spark.apache.org/docs/latest/sql-programming-guide.html \nExamples in Zeppelin notebooks: https://www.zepl.com/explore\nNice Pyspark DF function overview: https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-29T15:34:49-0600",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>pyspark cheat sheet: <a href=\"https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf\">https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf</a><br />\npyspark:  <a href=\"http://spark.apache.org/docs/latest/api/python/pyspark.sql.html\">http://spark.apache.org/docs/latest/api/python/pyspark.sql.html</a><br />\nSQL programming guide:  <a href=\"https://spark.apache.org/docs/latest/sql-programming-guide.html\">https://spark.apache.org/docs/latest/sql-programming-guide.html</a><br />\nExamples in Zeppelin notebooks: <a href=\"https://www.zepl.com/explore\">https://www.zepl.com/explore</a><br />\nNice Pyspark DF function overview: <a href=\"https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/\">https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/</a></p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089203_903319222",
+      "id": "paragraph_1702330877459_1618697504",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "READY",
+      "$$hashKey": "object:61167"
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-29T15:34:49-0600",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732916089203_496009771",
+      "id": "paragraph_1702330881262_244290808",
+      "dateCreated": "2024-11-29T15:34:49-0600",
+      "status": "READY",
+      "$$hashKey": "object:61168"
+    }
+  ],
+  "name": "Galadrome_test_setup",
+  "id": "2KEEUREMV",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.2",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/Galadrome/Galadrome_test_setup"
+}
